@@ -1,0 +1,107 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    background-color: #8A9AD6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+    background-color: #e0e0e0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #C0C0C0;
+}
+
+.center-text {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Box styling */
+.box {
+    width: 90%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    color: #333;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #f0f0f0;
+}
+
+.box p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Specific box colors */
+.box1 {
+    background-color: #3498DB;
+}
+
+.box2 {
+    background-color: #1ABC9C;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .box {
+        font-size: 0.9rem;
+        padding: 20px;
+    }
+    header {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .box {
+        width: 45%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box {
+        width: 30%;
+        font-size: 1.2rem;
+    }
+}
