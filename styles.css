@@ -14,19 +14,29 @@ header {
     font-size: 1.5rem;
 }
 
-/* Navigation styling */
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 10px 0;
+/* Information Section Styling */
+.info-section {
+    padding: 20px;
     background-color: #e0e0e0;
+    color: #333;
+    font-size: 1rem;
+    margin-top: 20px;
+    text-align: left;
 }
 
-nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+.info-section h2 {
+    font-size: 1.3rem;
+    color: #3498DB;
+    margin-top: 20px;
+}
+
+.info-section p, .info-section ul {
+    margin-bottom: 15px;
+}
+
+.info-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
 /* Main content styling */
@@ -90,6 +100,9 @@ main {
     header {
         font-size: 1.2rem;
         padding: 15px;
+    }
+    .info-section {
+        font-size: 0.9rem;
     }
 }
 
